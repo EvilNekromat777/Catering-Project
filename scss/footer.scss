@@ -1,0 +1,27 @@
+footer {}
+
+.footer-body {
+    @include flexbox();
+    justify-content: space-between;
+    align-items: center;
+    height: 125px;
+}
+
+.footer-body__column {}
+
+.footer__text {
+    color: #4d4d4d;
+    font-size: 15px;
+    line-height: 25px;
+
+    a {
+        text-decoration: underline;
+        color: #4d4d4d;
+
+        &:hover {
+            text-decoration: none;
+        }
+    }
+}
+
+.footer__logo {}

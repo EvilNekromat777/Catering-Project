@@ -307,6 +307,26 @@ header {
     top: 18px;
   }
 }
+.footer-body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 125px;
+}
+
+.footer__text {
+  color: #4d4d4d;
+  font-size: 15px;
+  line-height: 25px;
+}
+.footer__text a {
+  text-decoration: underline;
+  color: #4d4d4d;
+}
+.footer__text a:hover {
+  text-decoration: none;
+}
+
 * {
   padding: 0px;
   margin: 0px;
