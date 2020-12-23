@@ -293,6 +293,7 @@ header {
         background-color: #fff;
         padding: 65px 10px 0px 10px;
         @include anim(0.6s, 0s);
+        z-index: 2;
 
         &.active {
             left: 0;
